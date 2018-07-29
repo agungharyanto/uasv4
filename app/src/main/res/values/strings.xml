@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">e-Learning ESA UNGGUL</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_course">My course</string>
+    <string name="search_course">Search Course</string>
+    <string name="category_course">Category Course</string>
+    <string name="pemograman_mobile_10">Pemograman Mobile-10</string>
+    <string name="pararel_kebon_jeruk">Pararel Kebon Jeruk</string>
+    <string name="pemrosesan_data_tersebar_10">Pemrosesan Data Tersebar-10</string>
+    <string name="manajemen_jaringan_mobile_10">Manajemen Jaringan Mobile-10</string>
+    <string name="pengembangan_perangkat_lunak_10">Pengembangan Perangkat Lunak-10</string>
+    <string name="metedologi_penelitian_10">Metedologi Penelitian-10</string>
+    <string name="interaksi_manusia_komputer_10">Interaksi Manusia Komputer-10</string>
+    <string name="online_1">Online 1</string>
+    <string name="materi">MATERI</string>
+    <string name="forum">FORUM</string>
+    <string name="chat">CHAT</string>
+    <string name="assign">ASSIGN</string>
+    <string name="online_2">Online 2</string>
+    <string name="online_3">Online 3</string>
+    <string name="online_4">Online 4</string>
+    <string name="online_5">Online 5</string>
+    <string name="online_6">Online 6</string>
+</resources>

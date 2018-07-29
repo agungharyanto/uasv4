@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/mycourse"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/my_course"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/graduation"
+            android:drawableRight="@drawable/ic_next"/>
+        <Button
+            android:id="@+id/searchcourse"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/search_course"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/search"
+            android:drawableRight="@drawable/ic_next"/>
+        <Button
+            android:id="@+id/filecourse"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/category_course"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/folder"
+            android:drawableRight="@drawable/ic_next"/>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.milimeter.uasv7">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MycourseActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".FileActivity" />
+        <activity android:name=".course.Course1Activity" />
+        <activity android:name=".course.Course2Activity" />
+        <activity android:name=".course.Course3Activity" />
+        <activity android:name=".course.Course4Activity" />
+        <activity android:name=".course.Course5Activity" />
+        <activity android:name=".course.Course6Activity" />
+        <activity android:name=".online.Online1Activity" />
+        <activity android:name=".online.Online2Activity" />
+        <activity android:name=".online.Online3Activity" />
+        <activity android:name=".online.Online4Activity" />
+        <activity android:name=".online.Online5Activity" />
+        <activity android:name=".online.Online6Activity" />
+        <activity android:name=".FakultasEkonomiDanBisnis.Ekonomi1Activity"></activity>
+    </application>
+
+</manifest>

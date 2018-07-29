@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".course.Course1Activity"
+    tools:showIn="@layout/app_bar_course4">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+            <include layout="@layout/activity_online1"></include>
+        </android.support.design.widget.AppBarLayout>
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+            <include layout="@layout/activity_online2"></include>
+        </android.support.design.widget.AppBarLayout>
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="580dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+            <include layout="@layout/activity_online3"></include>
+        </android.support.design.widget.AppBarLayout>
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="860dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+            <include layout="@layout/activity_online4"></include>
+        </android.support.design.widget.AppBarLayout>
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1140dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+            <include layout="@layout/activity_online5"></include>
+        </android.support.design.widget.AppBarLayout>
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1420dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp">
+            <include layout="@layout/activity_online6"></include>
+        </android.support.design.widget.AppBarLayout>
+    </RelativeLayout>
+
+</ScrollView>
